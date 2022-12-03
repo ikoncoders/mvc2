@@ -4,7 +4,7 @@ Minimalistic custom framework created for educational purposes.
 
 
 ## The framework is not well tested on production. If you use it on production you use it on your own risk.
-**Related core package**: https://github.com/thecodeholic/tc-php-mvc-core
+**Related core package**: https://github.com/ikoncoders/php-mvc
 
 ----
 ## Installation
