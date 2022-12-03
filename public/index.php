@@ -22,6 +22,10 @@ use app\controllers\SiteController;
 
 	$app = new Application(dirname(__DIR__), $config); 
 	
+	$app->on(Application::EVENT_BEFORE_REQUEST, function(){
+		// echo "Before request from second installation";
+	});
+	
 	$app->router->get('/', [SiteController::class, 'home']);  //array
 	$app->router->get('/contact', [SiteController::class, 'contact']);   //array
     $app->router->post('/contact', [SiteController::class, 'contact']); //array
